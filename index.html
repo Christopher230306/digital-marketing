@@ -1,47 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Live Weather Dashboard</title>
-
-    <!-- Google Font for Headline -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Live Weather Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Header -->
-    <header>
-        <h1>Weather Dashboard</h1>
-    </header>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <h2>Live Weather Dashboard</h2>
-        <p>Get real-time weather updates and forecasts for any city.</p>
-
-        <div class="search-box">
-            <input type="text" id="city" placeholder="Enter city name">
-            <button onclick="getWeather()">Search Weather</button>
-        </div>
-    </section>
-
-    <!-- Weather Details -->
-    <section class="weather-section">
-        <div class="weather-box">
-            <p id="temp">Temperature: --</p>
-            <p id="condition">Condition: --</p>
-            <p id="humidity">Humidity: --</p>
-            <p id="wind">Wind Speed: --</p>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer>
-        <p>Weather data provided by OpenWeatherMap</p>
-    </footer>
-
-    <script src="script.js"></script>
+<header>
+<h1>Weather Dashboard</h1>
+</header>
+<section class="hero">
+<h2>Live Weather Dashboard</h2>
+<p>Get real-time weather updates and forecasts for any city.</p>
+<div class="search-box">
+<input type="text" id="city" placeholder="Enter city name">
+<button onclick="getWeather()">Search Weather</button>
+</div>
+</section>
+<section class="weather-section">
+<div class="weather-box">
+<p id="temp">Temperature: --</p>
+<p id="condition">Condition: --</p>
+<p id="humidity">Humidity: --</p>
+<p id="wind">Wind Speed: --</p>
+</div>
+</section>
+<footer>
+<p>Weather data provided by OpenWeatherMap</p>
+</footer>
+<script src="script.js"></script>
 </body>
 </html>
